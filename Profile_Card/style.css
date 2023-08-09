@@ -1,0 +1,47 @@
+.img-circle{
+    padding: 10px;
+    border-radius: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 0 4px 6px 0 #27AE60;
+    max-width: 300px;
+    margin: 80px;
+    height: auto;
+    text-align: center;
+    font-family: arial;
+
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 1.5em;
+    color:   #27AE60  ;
+}
+
+.card-text{
+    color: #2369E3 ; 
+}
+
+.card-details i{
+    color: #27AE60;
+}
+.social-links{
+    
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
