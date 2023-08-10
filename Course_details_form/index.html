@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course_details_form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"  ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: #D7DBDD;">
+   
+    <div class="container">
+        <h1><span style="color: #36CC7A ;"> Course</span>  <span>Details</span>  <span style="color: #36CC7A;">Form</span></h1>
+        <form id="form">
+            <div class="mb-3">
+                <!--name-->
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="name"  name="name"  placeholder="Enter your name" >
+               
+                <!--email-->
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                <!--age -->
+                <label for="exampleFormControlInput1" class="form-label">Age </label>
+                <input type="age" class="form-control" id="age" name="age"  placeholder="Enter your age">
+
+                
+                   <!--describes you?-->
+                    <label for="role" id="label-role">
+                        Which option best describes you?
+                    </label>
+                     
+                    <!-- Dropdown options -->
+                    <select class="form-select" name="role" id="role">
+                        <option value=""></option>
+                        <option value="student">Student</option>
+                        <option value="intern">Intern</option>
+                        <option value="professional"> Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                  <div class="checkbox">
+
+                    <label>Languages and Frameworks known
+                        <small>(Check all that apply)</small>
+                    </label> <br>
+                      <!-- Input Type Checkbox -->
+                    
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="c"> C
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="c++"> C++
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="java"> Java
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="html"> Html
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="css"> Css
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="javascript"> Javascript
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="python"> Python
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="Angular"> Angular
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="Vuejs"> Vuejs
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="reactjs"> Reactjs
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="sql"> Sql
+                      </label><br>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" name="django"> Django
+                      </label><br>
+                      
+                    </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Any comments or suggestions</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-outline-primary">Submit</button>
+        </form>
+    </div>
+    
+          
+     <!-- script  -->    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
